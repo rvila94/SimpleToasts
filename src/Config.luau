@@ -15,6 +15,7 @@ local Config: Types.Config = {
 	cornerRadius = 8,
 	padding = 12,
 	gap = 8,
+	detailGap = 0,
 	backgroundTransparency = 0.08,
 
 	fontSize = 14,
