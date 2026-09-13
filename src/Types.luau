@@ -40,6 +40,7 @@ export type Config = {
 	cornerRadius: number,
 	padding: number,
 	gap: number,
+	detailGap: number,
 	backgroundTransparency: number,
 	fontSize: number,
 	fontFace: Font,
