@@ -215,7 +215,7 @@ function ToastItem.new(
 	local contentLayout = Instance.new("UIListLayout")
 	contentLayout.FillDirection = Enum.FillDirection.Vertical
 	contentLayout.SortOrder = Enum.SortOrder.LayoutOrder
-	contentLayout.Padding = UDim.new(0, 0)
+	contentLayout.Padding = UDim.new(0, config.detailGap)
 	contentLayout.Parent = content
 
 	-- Title row: icon + summary.
