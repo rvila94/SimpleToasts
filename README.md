@@ -39,7 +39,7 @@ library for Roblox**.
 
 ```toml
 [dependencies]
-SimpleToasts = "rvila94/simpletoasts@0.1.0"
+SimpleToasts = "rvila94/simpletoasts@0.3.0"
 ```
 
 Then run `wally install` and require it from your `Packages` folder.
@@ -135,6 +135,7 @@ Toast.configure({
 	backgroundTransparency = 0.08, -- card background (0 = opaque)
 	fontSize = 14,
 	fontFace = Font.fromEnum(Enum.Font.Gotham), -- summary text uses its Bold weight
+	detailGap = 0,                 -- px between summary and detail text
 
 	-- Sounds
 	soundEnabled = false,          -- true = play per-severity sounds automatically
